@@ -48,6 +48,16 @@ p>span {
     float: left;
 }
 
+a.orange {
+    color: #e89725;
+    font-size: 12px;
+}
+
+a.grey {
+    color: #939393;
+    font-size: 12px;
+}
+
 form input[type=text],
 form input[type=password],
 form input[type=submit] {
@@ -88,6 +98,19 @@ div#bg_subtop {
     background: url("../img/bg_subtop.png") transparent top center no-repeat;
     width: 100%;
     height: 100%;
+}
+
+#header_top {
+    height: 116px;
+}
+
+#in_header_top {
+    height: 60px;
+    margin: 25px 0;
+}
+
+#in_header_top form {
+    margin: 8px 0;
 }
 
 div#banner {
@@ -135,6 +158,7 @@ div.centralPosition {
 #logo {
     width: 313px;
     height: 60px;
+    margin: 0 12px 0 0;
     background: url('../img/logo.png') no-repeat;
 }
 
@@ -146,12 +170,16 @@ div.centralPosition {
 }
 
 #search form input[type=text] {
-    width: 156px; /* -30px psd */
+    width: 146px; /* -40px psd */
 }
 
 #registration_form form input[type=text],
 #registration_form form input[type=password]{
     width: 112px; /* -40px psd */
+}
+
+#form_links {
+    margin: 12px 0 0 8px;
 }
 
 /*LAYOUTS*/
