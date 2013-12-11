@@ -1,0 +1,15 @@
+@font-face {
+	font-family: 'MYRIADPROREGULAR';
+    
+    	src: url('http://fontsforweb.com/public/fonts/4410/MYRIADPROREGULAR.eot');
+	src: local('MYRIADPROREGULAR'), url('http://fontsforweb.com/public/fonts/4410/MYRIADPROREGULAR.ttf') format('truetype');
+    }
+body.cke_show_borders p {
+	font-family: 'MYRIADPROREGULAR';
+    font-size: 30px;
+}
+.fontsforweb_fontid_4410 {
+	font-family: 'MYRIADPROREGULAR' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

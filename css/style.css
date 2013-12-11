@@ -1,0 +1,50 @@
+
+@font-face
+{
+    font-weight: normal;
+    font-style: normal;
+    font-family: 'MyMyriadPro';
+    src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf') format('truetype'),
+    url('../fonts/MyriadPro-Regular/MyriadPro-Regular.svg#webfont') format('svg');
+}
+
+/*GENERAL*/
+
+body {
+    background-color: #021121;
+    color: #ffffff;
+    font: 13px/1.1 MyMyriadPro', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Arial, sans-serif;
+}
+
+/*a {*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*p>a {*/
+    /*color: #da2149;*/
+/*}*/
+
+/*p>a:visited {*/
+    /*color: #731126;*/
+/*}*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+p>span {
+    text-transform: uppercase;
+}
+
+
+/*LAYOUTS*/
+
+
+
