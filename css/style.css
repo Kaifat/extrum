@@ -156,5 +156,26 @@ div.centralPosition {
 
 /*LAYOUTS*/
 
+#nav_menu ul {
+    text-align: justify;
+    font-size: 0;
+    padding: 20px 0;
+}
 
+#nav_menu ul:after {
+    width: 100%;
+    display: inline-block;
+    content: "";
+}
+
+#nav_menu ul li {
+    display: inline-block;
+}
+
+#nav_menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1em;
+    color: #ffffff;
+}
 
