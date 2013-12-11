@@ -21,11 +21,17 @@ html, body {
 }
 
 div#bg_top {
-    width:100%;
     background: url("../img/bg_top.png") transparent top center repeat-x;
+    width:100%;
     height: 620px;
     position: absolute;
     z-index: 5;
+}
+
+div#bg_subtop {
+    background: url("../img/bg_subtop.png") transparent top center no-repeat;
+    width: 100%;
+    height: 100%;
 }
 
 div#bg_main {
@@ -68,6 +74,18 @@ p>span {
     text-transform: uppercase;
 }
 
+#logo {
+    width: 313px;
+    height: 60px;
+    background: url('../img/logo.png') no-repeat;
+}
+
+#logo a {
+    width: 100%;
+    height: 100%;
+    text-indent: -10000px;
+    display: block;
+}
 
 /*LAYOUTS*/
 
