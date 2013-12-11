@@ -16,7 +16,7 @@
 html, body {
     color: #ffffff;
     font: 13px/1.1 'MyMyriadPro', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Arial, sans-serif;
-    background-color: #021121;
+    background: url("../img/bg_common.png") #021121 repeat-x top center;
     min-height:100%;
 }
 
@@ -102,11 +102,12 @@ div#bg_subtop {
 
 #header_top {
     height: 116px;
+    width: 100%;
 }
 
 #in_header_top {
     height: 60px;
-    margin: 25px 0;
+    padding: 28px 0;
 }
 
 #in_header_top form {
