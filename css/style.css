@@ -196,6 +196,17 @@ h1>span {
     font-size: 55px;
 }
 
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #41c2f2;
+}
+
 #nav_menu ul {
     text-align: justify;
     font-size: 0;
