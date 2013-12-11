@@ -20,6 +20,62 @@ html, body {
     min-height:100%;
 }
 
+/*a {*/
+/*text-decoration: none;*/
+/*}*/
+
+/*p>a {*/
+/*color: #da2149;*/
+/*}*/
+
+/*p>a:visited {*/
+/*color: #731126;*/
+/*}*/
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+p>span {
+    text-transform: uppercase;
+}
+
+.fl_left {
+    float: left;
+}
+
+form input[type=text],
+form input[type=password],
+form input[type=submit] {
+    border-radius: 12px;
+    height: 24px;
+    line-height: 24px;
+    width: 100px;
+    margin: 8px;
+    padding: 0;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+form input[type=text],
+form input[type=password] {
+    border: solid 1px #c8c8c8;
+    color: #747474;
+    padding: 0 10px;
+    font-size: 11px;
+}
+
+form input[type=submit] {
+    text-align: center;
+    color: #616666;
+    font-size: 14px;
+    font-style: italic;
+    border: none;
+}
+
 div#bg_top {
     background: url("../img/bg_top.png") transparent top center repeat-x;
     width:100%;
@@ -34,12 +90,19 @@ div#bg_subtop {
     height: 100%;
 }
 
+div#banner {
+    width: 100%;
+    height: 422px;
+    background: url('../img/bg_banner.png') no-repeat center top;
+}
+
 div#bg_main {
     width: 100%;
     background-image: url("../img/bg_main.png");
     background-position: center top;
     background-repeat: repeat;
     margin: 116px 0 0 0;
+    padding: 400px 0 0 0;
     position: absolute;
     z-index: 1;
     min-height:100%;
@@ -66,30 +129,7 @@ div#bg_right {
 div.centralPosition {
     width: 1024px;
     margin: 0 auto;
-}
-
-/*a {*/
-    /*text-decoration: none;*/
-/*}*/
-
-/*p>a {*/
-    /*color: #da2149;*/
-/*}*/
-
-/*p>a:visited {*/
-    /*color: #731126;*/
-/*}*/
-
-.clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    height: 0;
-    visibility: hidden;
-}
-
-p>span {
-    text-transform: uppercase;
+    border: solid 1px #fff;
 }
 
 #logo {
@@ -103,6 +143,15 @@ p>span {
     height: 100%;
     text-indent: -10000px;
     display: block;
+}
+
+#search form input[type=text] {
+    width: 156px; /* -30px psd */
+}
+
+#registration_form form input[type=text],
+#registration_form form input[type=password]{
+    width: 112px; /* -40px psd */
 }
 
 /*LAYOUTS*/
