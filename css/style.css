@@ -14,11 +14,19 @@
 /*GENERAL*/
 
 body {
-    background-color: #021121;
     color: #ffffff;
-    font: 13px/1.1 MyMyriadPro', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Arial, sans-serif;
+    font: 13px/1.1 'MyMyriadPro', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Arial, sans-serif;
+    background-color: #021121;
 }
 
+div#bg_main {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/bg_main.png");
+    background-position: center top;
+    background-repeat: repeat-y;
+    margin: 116px 0 0 0;
+}
 /*a {*/
     /*text-decoration: none;*/
 /*}*/
