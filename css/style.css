@@ -45,7 +45,25 @@ div#bg_main {
     min-height:100%;
 }
 
-div.wrapper {
+div#bg_bottom {
+    background: url("../img/bg_bottom.png") transparent no-repeat left bottom;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 904px;
+    height: 627px;
+}
+
+div#bg_right {
+    background: url("../img/bg_right.png") transparent no-repeat left bottom;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 479px;
+    height: 875px;
+}
+
+div.centralPosition {
     width: 1024px;
     margin: 0 auto;
 }
