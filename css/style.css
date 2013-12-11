@@ -13,20 +13,37 @@
 
 /*GENERAL*/
 
-body {
+html, body {
     color: #ffffff;
     font: 13px/1.1 'MyMyriadPro', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Arial, sans-serif;
     background-color: #021121;
+    min-height:100%;
+}
+
+div#bg_top {
+    width:100%;
+    background: url("../img/bg_top.png") transparent top center repeat-x;
+    height: 620px;
+    position: absolute;
+    z-index: 5;
 }
 
 div#bg_main {
     width: 100%;
-    height: 100%;
     background-image: url("../img/bg_main.png");
     background-position: center top;
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     margin: 116px 0 0 0;
+    position: absolute;
+    z-index: 1;
+    min-height:100%;
 }
+
+div.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+}
+
 /*a {*/
     /*text-decoration: none;*/
 /*}*/
