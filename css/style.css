@@ -242,3 +242,110 @@ h3 {
     padding-left: 55px;
 }
 
+.nav {
+    display: block;
+    background: url('../img/sprite.png') no-repeat;
+}
+
+.nav_1 {
+    background-position: -0px -164px;
+    width: 41px;
+    height: 41px;
+}
+
+.nav_1:hover {
+    background-position: -0px -0px;
+    width: 41px;
+    height: 41px;
+}
+
+.nav_2 {
+    background-position: -0px -82px;
+    width: 41px;
+    height: 41px;
+}
+
+.nav_2:hover {
+    background-position: -0px -41px;
+    width: 41px;
+    height: 41px;
+}
+
+.nav_3 {
+    background-position: -0px -328px;
+    width: 40px;
+    height: 41px;
+}
+
+.nav_3:hover {
+    background-position: -0px -451px;
+    width: 41px;
+    height: 41px;
+}
+
+.nav_4 {
+    background-position: -0px -205px;
+    width: 41px;
+    height: 41px;
+}
+
+.nav_4:hover {
+    background-position: -0px -246px;
+    width: 41px;
+    height: 41px;
+}
+
+.nav_5 {
+    background-position: -0px -369px;
+    width: 41px;
+    height: 41px;
+}
+
+.nav_5:hover {
+    background-position: -0px -410px;
+    width: 41px;
+    height: 41px;
+}
+
+.nav_6 {
+    background-position: -0px -287px;
+    width: 41px;
+    height: 41px;
+}
+
+.nav_6:hover {
+    background-position: -0px -123px;
+    width: 41px;
+    height: 41px;
+}
+/*SPRITES*/
+
+.nav-1r, .nav-2r, .nav-2, .nav-6r, .nav-1,
+.nav-4, .nav-4r, .nav-6, .nav-3, .nav-5,
+.nav-5r, .nav-3r, .man-bl, .man-or, .hexagon,
+.character, .talant, .industry, .fortune, .intelligence,
+.question-mark
+{ display: block; background: url('../img/sprite.png') no-repeat; }
+
+.nav-1r { background-position: -0px -0px; width: 41px; height: 41px; }
+.nav-2r { background-position: -0px -41px; width: 41px; height: 41px; }
+.nav-2 { background-position: -0px -82px; width: 41px; height: 41px; }
+.nav-6r { background-position: -0px -123px; width: 41px; height: 41px; }
+.nav-1 { background-position: -0px -164px; width: 41px; height: 41px; }
+.nav-4 { background-position: -0px -205px; width: 41px; height: 41px; }
+.nav-4r { background-position: -0px -246px; width: 41px; height: 41px; }
+.nav-6 { background-position: -0px -287px; width: 41px; height: 41px; }
+.nav-3 { background-position: -0px -328px; width: 40px; height: 41px; }
+.nav-5 { background-position: -0px -369px; width: 41px; height: 41px; }
+.nav-5r { background-position: -0px -410px; width: 41px; height: 41px; }
+.nav-3r { background-position: -0px -451px; width: 41px; height: 41px; }
+.man-bl { background-position: -0px -492px; width: 23px; height: 38px; }
+.man-or { background-position: -0px -530px; width: 23px; height: 38px; }
+.hexagon { background-position: -0px -568px; width: 40px; height: 35px; }
+.character { background-position: -0px -603px; width: 31px; height: 30px; }
+.talant { background-position: -0px -633px; width: 23px; height: 28px; }
+.industry { background-position: -0px -661px; width: 26px; height: 26px; }
+.fortune { background-position: -0px -687px; width: 28px; height: 25px; }
+.intelligence { background-position: -0px -712px; width: 28px; height: 24px; }
+.question-mark { background-position: -0px -736px; width: 19px; height: 19px; }
+
