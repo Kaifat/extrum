@@ -294,6 +294,7 @@ h3 {
     color: #ffffff;
     padding-left: 55px;
     width: 100%;
+    min-width: 100%;
     line-height: 40px;
 }
 
