@@ -230,6 +230,10 @@ div.centralPosition {
     margin: 12px 0 0 8px;
 }
 
+.popup_dialog label {
+    width: 150px;
+}
+
 /*LAYOUTS*/
 h1 {
     font-size: 39px;
