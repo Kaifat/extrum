@@ -61,9 +61,7 @@ a.grey {
 form input[type=text],
 form input[type=password],
 form input[type=submit] {
-    border-radius: 12px;
-    height: 24px;
-    line-height: 24px;
+    border-radius: 10px;
     width: 100px;
     margin: 8px;
     padding: 0;
@@ -76,14 +74,20 @@ form input[type=password] {
     color: #747474;
     padding: 0 10px;
     font-size: 11px;
+    height: 21px;
+    line-height: 21px;
 }
 
 form input[type=submit] {
     text-align: center;
-    color: #616666;
+    line-height: 18px;
+    height: 23px;
+    color: #ffffff;
     font-size: 14px;
     font-style: italic;
-    border: none;
+    padding: 0 10px;
+    border: solid 1px #007a9e;
+    background: url("../img/bg_blue.png") repeat-x transparent top left;
 }
 
 div#bg_top {
@@ -125,8 +129,9 @@ div#banner h1 {
     background: url("../img/bg_arrow.png") no-repeat scroll right top rgba(0, 0, 0, 0);
     height: 140px;
     line-height: 60px;
-    padding: 12px 50px 0;
-    width: 530px;
+    padding: 12px 120px 0;
+    width: 40%;
+    text-align: right;
 }
 
 div#bg_main {
@@ -168,7 +173,7 @@ div.centralPosition {
 #logo {
     width: 313px;
     height: 60px;
-    margin: 0 12px 0 0;
+    margin: 0 10px 0 0;
     background: url('../img/logo.png') no-repeat;
 }
 
