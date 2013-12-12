@@ -15,13 +15,17 @@
     <link href="./js/jquery-ui/css/ui-extrum/jquery-ui.css" rel="stylesheet">
     <script src="./js/jquery-ui/jquery-ui-1.10.3.custom.min.js"></script>
 
+    <!-- HighCharts -->
+    <script src="./js/highcharts.src.js" type="text/javascript"></script>
+    <script src="./js/highcharts-more.js" type="text/javascript"></script>
+
     <!-- JS -->
     <script src="./js/main.js" type="text/javascript"></script>
 
     <!-- IF IE - use Placeholder Fallback -->
     <!--[if lt IE 10 ]>
     <script>
-        $(".place_holder").find('[placeholder]').each(function(){
+        $(".place_holder").each(function(){
             $(this).val($(this).attr('placeholder'));
             $(this).focus(function() {
                 if ($(this).attr('placeholder')==$(this).val()) {
@@ -284,7 +288,7 @@
         <div class="centralPosition">
             <div id="famous_dates" class="clearfix">
                 <div id="web" class="fl_left">
-                    &nbsp;
+                    <div id="spiderweb_container" style="min-width: 400px; max-width: 600px; height: 400px; margin: 0 auto"></div>
                 </div>
                 <div id="boxes" class="fl_left">
                     <div class="info">
