@@ -4,14 +4,20 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Экструм</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/ie.css">
 
+    <!-- JS -->
+    <script src="./js/jquery-2.0.3.min.js" type="text/javascript"></script>
+    <script src="./js/main.js" type="text/javascript"></script>
+
 </head>
 
 <body>
-    <div id="page_wrapper">
+    <div id="page_wrapper" class="with_banner">
         <div id="banner_wrap">
             <h1>&nbsp;</h1>
         </div>
@@ -23,15 +29,15 @@
                             <div id="logo" class="fl_left"><a href="#">Экструм</a></div>
                             <div id="search" class="fl_left">
                                 <form action="#" name="search" method="post">
-                                    <input type="text" name="search" value="Поиск по сайту">
+                                    <input type="text" name="searchText" id="searchText" value="Поиск по сайту">
                                 </form>
                             </div>
                             <div id="registration_form">
                                 <div class="fl_left">
                                     <form action="#" name="registration" method="post">
-                                        <input type="text" name="name" value="имя">
-                                        <input type="password" name="password" value="пароль">
-                                        <input type="submit" name="button_reg" value="войти">
+                                        <input type="text" name="reg_name" id="reg_name" value="имя">
+                                        <input type="password" name="reg_password" id="reg_password" value="пароль">
+                                        <input type="submit" name="reg_submit" id="reg_submit" value="войти">
                                     </form>
                                 </div>
                                 <div id="form_links" class="fl_left">
