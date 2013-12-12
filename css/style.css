@@ -408,7 +408,8 @@ span.nbsp4 {
     margin-right: 6px;
 }
 
-.article .project_title {
+.article .project_title,
+.box_title {
     font-size: 14px;
     line-height: 1.5em;
     color: #8eb83c;
@@ -522,6 +523,11 @@ h4 {
     background-position: center top;
 }
 
+#web,
+#boxes {
+    width: 47%;
+    padding: 13px 15px;
+}
 
 /*SPRITES*/
 
