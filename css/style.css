@@ -230,6 +230,27 @@ div.centralPosition {
     margin: 12px 0 0 8px;
 }
 
+.popup_dialog div.form_row {
+    margin: 10px;
+}
+.popup_dialog label {
+    width: 130px;
+    display: block;
+    float: left;
+    color: #ffffff;
+}
+.popup_dialog input[type=text] {
+    width: 300px;
+}
+.orangeBg {
+    background: url('../img/analisy_button.png') 50% center repeat-x !important;
+    border-radius: 3px !important;
+    border: none !important;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    font: 13px/1.1 'MyMyriadPro', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Arial, sans-serif;
+}
+
 /*LAYOUTS*/
 h1 {
     font-size: 39px;
