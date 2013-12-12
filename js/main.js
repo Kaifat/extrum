@@ -16,7 +16,7 @@ $(document).ready(function(){
     ];
 
     $(formInputs).each(function(i, inputObj) {
-        
+
         $(inputObj.el).blur(function() {
             var currElem = this;
             if ($(currElem).val() == "") {
