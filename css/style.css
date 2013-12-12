@@ -252,6 +252,9 @@ h3 {
 #feedback,
 #news {
     width: 220px;
+    background-image: url("../img/bg_article.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 #project {
@@ -260,6 +263,11 @@ h3 {
 
 .article {
     padding-top: 25px;
+    /*text-align: left;*/
+}
+
+.article p {
+    text-align: left;
 }
 
 .article .feedback_date {
@@ -272,8 +280,27 @@ h3 {
     font-size: 14px;
     line-height: 1.3em;
     color: #0ba6b8;
+}
+
+p.read_more {
+    display: inline-block;
+    margin: 10px 0;
+    line-height: 2em;
+    background-color: #195066;
+    border-radius: 5px;
+
 
 }
+
+p.read_more a {
+    font-size: 12px;
+    color: #ffffff;
+    padding: 0 12px;
+    text-decoration: none;
+
+}
+
+
 .nav {
     display: block;
     background: url('../img/sprite.png') no-repeat;
