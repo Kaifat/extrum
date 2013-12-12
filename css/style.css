@@ -410,14 +410,16 @@ span.nbsp4 {
     color: #8eb83c;
 }
 
-p.read_more {
+p.read_more,
+p.count_concrete {
     display: inline-block;
     margin: 10px 0;
     height: 24px;
     line-height: 20px;
 }
 
-p.read_more a {
+p.read_more a,
+p.count_concrete a {
     font-size: 12px;
     color: #ffffff;
     padding: 0 8px;
@@ -445,6 +447,54 @@ p.read_more a {
 }
 
 
+
+
+
+/*MAIN-ROOM*/
+
+.column {
+    width: 47%;
+    background-image: url("../img/bg_column_side.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding: 13px 15px;
+}
+
+.column:last-child {
+    background-image: none;
+}
+
+h4 {
+    font-size: 16px;
+    color: #8eb83d;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.column>div {
+    margin: 12px 0 0 0;
+}
+
+.column h4 {
+    float: left;
+}
+
+.count_concrete {
+    float: right;
+    padding: 0 15px 0 0;
+}
+
+.unlucky_date {
+    clear: both;
+    color: #e87901;
+    line-height: 1.5em;
+}
+
+.bg_column_top {
+    background-image: url("../img/bg_column_bottom.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
 
 
 /*SPRITES*/
