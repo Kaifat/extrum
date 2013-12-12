@@ -195,7 +195,7 @@ input.ui-button {
 }
 .ui-button-icon-only .ui-icon {
 	left: 50%;
-	margin-left: -8px;
+	margin-left: -9px;
 }
 .ui-button-text-icon-primary .ui-button-icon-primary,
 .ui-button-text-icons .ui-button-icon-primary,
@@ -417,11 +417,11 @@ button.ui-button::-moz-focus-inner {
 .ui-dialog .ui-dialog-titlebar-close {
 	position: absolute;
 	right: .3em;
-	top: 50%;
-	width: 21px;
-	margin: -10px 0 0 0;
-	padding: 1px;
-	height: 20px;
+	top: 5px;
+	width: 17px;
+	margin: 0;
+	padding: 0;
+	height: 17px;
 }
 .ui-dialog .ui-dialog-content {
 	position: relative;
@@ -798,7 +798,6 @@ body .ui-tooltip {
 .ui-widget select,
 .ui-widget textarea,
 .ui-widget button {
-	font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
 	font-size: 1em;
 }
 .ui-widget-content {
@@ -825,9 +824,10 @@ body .ui-tooltip {
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
 	border: 1px solid #cccccc;
+    border-radius: 5px;
 	background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
 	font-weight: bold;
-	color: #1c94c4;
+	color: #999999;
 }
 .ui-state-default a,
 .ui-state-default a:link,
@@ -841,10 +841,11 @@ body .ui-tooltip {
 .ui-state-focus,
 .ui-widget-content .ui-state-focus,
 .ui-widget-header .ui-state-focus {
-	border: 1px solid #fbcb09;
-	background: #fdf5ce url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x;
+	border: 1px solid #000000;
+    border-radius: 5px;
+	background: #fdf5ce url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;
 	font-weight: bold;
-	color: #c77405;
+	color: #999999;
 }
 .ui-state-hover a,
 .ui-state-hover a:hover,
@@ -856,7 +857,8 @@ body .ui-tooltip {
 .ui-state-active,
 .ui-widget-content .ui-state-active,
 .ui-widget-header .ui-state-active {
-	border: 1px solid #fbd850;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
 	background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
 	font-weight: bold;
 	color: #eb8f00;
@@ -938,11 +940,11 @@ body .ui-tooltip {
 	background-image: url(images/ui-icons_ffffff_256x240.png);
 }
 .ui-state-default .ui-icon {
-	background-image: url(images/ui-icons_ef8c08_256x240.png);
+	background-image: url(images/ui-icons_222222_256x240.png);
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url(images/ui-icons_ef8c08_256x240.png);
+	background-image: url(images/ui-icons_222222_256x240.png);
 }
 .ui-state-active .ui-icon {
 	background-image: url(images/ui-icons_ef8c08_256x240.png);
