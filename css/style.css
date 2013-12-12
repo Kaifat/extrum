@@ -93,7 +93,7 @@ form input[type=submit] {
 div#bg_top {
     background: url("../img/bg_top.png") transparent center top repeat-x;
     width:100%;
-    height: 520px; /** 620 **/
+    /*height: 520px; *//** 620 **/
     position: absolute;
     z-index: 5;
 }
@@ -140,7 +140,7 @@ div#bg_main {
     background-position: center top;
     background-repeat: repeat;
     margin: 116px 0 0 0;
-    padding: 400px 0 0 0;
+    padding: 375px 0 0 0;
     position: absolute;
     z-index: 1;
     min-height:100%;
@@ -164,10 +164,17 @@ div#bg_right {
     height: 875px;
 }
 
+div#bg_shadow {
+    background: url("../img/bg_shadow.png") transparent repeat-x center top;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
 div.centralPosition {
     width: 1024px;
     margin: 0 auto;
-    border: solid 1px #fff;
+    /*border: solid 1px #fff;*/
 }
 
 #logo {
