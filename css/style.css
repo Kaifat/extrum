@@ -232,6 +232,13 @@ div.centralPosition {
 
 .popup_dialog label {
     width: 150px;
+    display: block;
+    float: left;
+    color: #ffffff;
+}
+
+.popup_dialog div.form_row {
+    margin: 10px;
 }
 
 /*LAYOUTS*/

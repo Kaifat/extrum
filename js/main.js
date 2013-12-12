@@ -40,7 +40,7 @@ $(document).ready(function(){
     // registration popup
     $( "#register_popup" ).dialog({
         autoOpen: false,
-        width: 400,
+        width: 500,
         title: "Создать кабинет",
         buttons: [
             {
