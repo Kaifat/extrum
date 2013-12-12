@@ -339,6 +339,19 @@ p.read_more a {
     text-decoration: none;
 }
 
+#footer {
+    clear: both;
+    text-align: center;
+    background-image: url("../img/bg_footer.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    line-height: 80px;
+}
+
+#footer p {
+    font-size: 12px;
+}
+
 
 .nav {
     display: block;
