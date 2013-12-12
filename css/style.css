@@ -242,6 +242,31 @@ h3 {
     padding-left: 55px;
 }
 
+#feedback,
+#news {
+    width: 220px;
+}
+
+#project {
+    width: 560px;
+}
+
+.article {
+    padding-top: 25px;
+}
+
+.article .feedback_date {
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #a6be66;
+}
+
+.article .feedback_author {
+    font-size: 14px;
+    line-height: 1.3em;
+    color: #0ba6b8;
+
+}
 .nav {
     display: block;
     background: url('../img/sprite.png') no-repeat;
