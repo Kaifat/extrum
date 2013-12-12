@@ -217,8 +217,11 @@ div.centralPosition {
 #searchForm {
     margin: 1px 0 0 0;
 }
-#searchForm form input[type=text] {
-    width: 140px;
+
+#searchText {
+    background: url('../img/sprait/search.png') no-repeat left 50% #ffffff;
+    padding-left: 20px !important;
+    width: 130px !important;
 }
 
 #registration_form form input[type=text],
