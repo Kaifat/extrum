@@ -304,24 +304,50 @@ span.nbsp4 {
     padding: 35px 0 0 350px;
 }
 #gen {
-    padding: 15px 0 0 0;
+    padding: 20px 0 0 0;
 }
 
+#mathAnalysForm label {
+    font-size: 14px;
+}
 #mathAnalysForm input {
     margin: 0 5px;
 }
 #mathAnalysForm input.sm{
-    width: 70px;
+    width: 50px;
 }
 #mathAnalysForm input.norm{
-    width: 120px;
+    width: 90px;
 }
 #mathAnalysForm input.big{
-    width: 250px;
+    width: 350px;
 }
 
 #mathAnalysForm p {
-    line-height: 50px;
+    line-height: 45px;
+}
+
+#button_analysis {
+    height: 84px;
+    width: 146px;
+    background: url("../img/analisy_button.png") repeat-x top left;
+    border: none;
+    border-radius: 2px;
+    padding: 0;
+    float: right;
+    margin: 10px 40px 0 0;
+}
+#button_analysis a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 20px auto;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 #feedback,
