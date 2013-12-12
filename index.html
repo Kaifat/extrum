@@ -10,8 +10,12 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/ie.css">
 
-    <!-- JS -->
+    <!-- jQuery -->
     <script src="./js/jquery-2.0.3.min.js" type="text/javascript"></script>
+    <link href="./js/jquery-ui/css/ui-lightness/jquery-ui.min.css" rel="stylesheet">
+    <script src="./js/jquery-ui/jquery-ui-1.10.3.custom.min.js"></script>
+
+    <!-- JS -->
     <script src="./js/main.js" type="text/javascript"></script>
 
 </head>
@@ -41,8 +45,7 @@
                                 </form>
                             </div>
                             <div id="form_links" class="fl_left">
-                                <p><a class="orange" href="#">Регистрация</a></p>
-
+                                <p><a id="regegister_link" class="orange" href="#">Регистрация</a></p>
                                 <p><a class="grey" href="#">Забыли пароль?</a></p>
                             </div>
                         </div>
@@ -230,6 +233,47 @@
 
         </div>
     </div>
+
+    <div id="register_popup" style="display: none;">
+        <p class="upper">Создать кабинет</p>
+        <form action="#" name="register_form">
+            <div>
+                <label>Имя*</label>
+                <input type="text" name="first_name" value="Владимир">
+            </div>
+            <div>
+                <label>Фамилия*</label>
+                <input type="text" name="second_name" value="Владимирович">
+            </div>
+            <div>
+                <label>Дата рождения</label>
+                <input type="text" name="birthday" id="datepicker" value="Дата рождения">
+            </div>
+            <div>
+                <label>Пол</label>
+                <select name="gender" value="Пол">
+                    <option>Мужской</option>
+                    <option>Женский</option>
+                </select>
+            </div>
+            <div>
+                <label>E-mail адрес*</label>
+                <input type="text" name="mail" value="E-mail адрес">
+            </div>
+            <div>
+                <label>Пароль*</label>
+                <input type="text" name="password" value="Пароль">
+            </div>
+            <div>
+                <label>Подтвердить*</label>
+                <input type="text" name="repeat_password" value="Подтвердить">
+            </div>
+            <div>
+                <input type="submit" value="Зарегистрироваться">
+            </div>
+        </form>
+
+    </div><!--end popup-->
 </div>
 </body>
 </html>

@@ -32,4 +32,34 @@ $(document).ready(function(){
         });
     });
 
+    // datepicker
+    $( "#datepicker" ).datepicker({
+        inline: true
+    });
+
+    // registration popup
+    $( "#register_popup" ).dialog({
+        autoOpen: false,
+        width: 400,
+        buttons: [
+            {
+                text: "Ok",
+                click: function() {
+                    $( this ).dialog( "close" );
+                }
+            },
+            {
+                text: "Cancel",
+                click: function() {
+                    $( this ).dialog( "close" );
+                }
+            }
+        ]
+    });
+    // Link to open the register dialog
+    $( "#regegister_link" ).click(function( event ) {
+        $( "#register_popup" ).dialog( "open" );
+        event.preventDefault();
+    });
+
 }); //end jQuery
