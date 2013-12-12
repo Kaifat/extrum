@@ -118,6 +118,10 @@ div#bg_subtop {
     margin: 8px 0;
 }
 
+#registration_form {
+    float:right;
+}
+
 div#banner_wrap,
 div#banner {
     width: 100%;
@@ -191,7 +195,7 @@ div#bg_shadow {
 }
 
 div.centralPosition {
-    width: 1024px;
+    width: 1000px; /** 1024 + scroll **/
     margin: 0 auto;
     /*border: solid 1px #fff;*/
 }
@@ -199,7 +203,7 @@ div.centralPosition {
 #logo {
     width: 313px;
     height: 60px;
-    margin: 0 10px 0 0;
+    margin: 0 13px 0 0;
     background: url('../img/logo.png') no-repeat;
 }
 
@@ -210,13 +214,16 @@ div.centralPosition {
     display: block;
 }
 
-#search form input[type=text] {
-    width: 146px; /* -40px psd */
+#searchForm {
+    margin: 1px 0 0 0;
+}
+#searchForm form input[type=text] {
+    width: 140px;
 }
 
 #registration_form form input[type=text],
 #registration_form form input[type=password]{
-    width: 112px; /* -40px psd */
+    width: 100px;
 }
 
 #form_links {
