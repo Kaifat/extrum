@@ -58,9 +58,9 @@ a.grey {
     font-size: 12px;
 }
 
-form input[type=text],
-form input[type=password],
-form input[type=submit] {
+#header_top form input[type=text],
+#header_top form input[type=password],
+#header_top form input[type=submit] {
     border-radius: 10px;
     width: 100px;
     margin: 8px;
@@ -68,8 +68,8 @@ form input[type=submit] {
     font-family: Trebuchet MS, sans-serif;
 }
 
-form input[type=text],
-form input[type=password] {
+#header_top form input[type=text],
+#header_top form input[type=password] {
     border: solid 1px #c8c8c8;
     color: #747474;
     padding: 0 10px;
@@ -78,7 +78,7 @@ form input[type=password] {
     line-height: 21px;
 }
 
-form input[type=submit] {
+#header_top form input[type=submit] {
     text-align: center;
     line-height: 18px;
     height: 23px;
@@ -277,7 +277,7 @@ h3 {
 
 #maths_analysis {
     background: url("../img/bg_analysis.png") no-repeat center -60px transparent;
-    height: 499px;
+    height: 400px; /** 499 **/
     width: 100%;
 }
 
@@ -300,9 +300,17 @@ span.nbsp4 {
     padding:10px 0 0 20px;
 }
 #form_analys {
-    padding: 20px 0 0 350px;
+    padding: 35px 0 0 350px;
 }
-#form_analys h2 {
+#gen {
+    padding: 15px 0 0 0;
+}
+
+#birthday form input.sm{
+    width: 50px;
+}
+#birthday form input.norm{
+    width: 120px;
 }
 
 #feedback,
