@@ -275,6 +275,36 @@ h3 {
     padding-left: 55px;
 }
 
+#maths_analysis {
+    background: url("../img/bg_analysis.png") no-repeat center -60px transparent;
+    height: 499px;
+    width: 100%;
+}
+
+#decsr_analis {
+    padding: 60px 0 0 214px;
+}
+span.nbsp1 {
+    padding: 0 0 0 10px;
+}
+span.nbsp2 {
+    padding: 0 0 0 20px;
+}
+span.nbsp3 {
+    padding: 0 0 0 30px;
+}
+span.nbsp4 {
+    padding: 0 0 0 40px;
+}
+#description_text {
+    padding:10px 0 0 20px;
+}
+#form_analys {
+    padding: 20px 0 0 350px;
+}
+#form_analys h2 {
+}
+
 #feedback,
 #news {
     width: 20%;
