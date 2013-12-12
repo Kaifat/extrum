@@ -589,6 +589,44 @@ h4 {
 .box_title {
     line-height: 3em;
 }
+.mt18 {
+    margin-top: 18px;
+}
+
+#forum_name {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+#forum_date {
+    font-size: 16px;
+    color: #e97901;
+}
+
+#tuning,
+#exit {
+    border-radius: 10px;
+    margin: 0 10px;
+    line-height: 18px;
+    height: 23px;
+    padding: 0 10px;
+}
+
+#tuning a,
+#exit a {
+    color: #ffffff;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#tuning {
+    background-color: #e37402;
+}
+
+#exit {
+    background-color: #1f7c9e;
+}
 
 
 
