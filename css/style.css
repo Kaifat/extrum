@@ -525,6 +525,13 @@ h4 {
     padding: 13px 15px;
 }
 
+#boxes>div {
+    padding: 12px 0;
+    background-image: url("../img/bg_box.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
 /*SPRITES*/
 
 .nav_sprite {
