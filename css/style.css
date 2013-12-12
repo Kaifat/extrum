@@ -477,7 +477,29 @@ h4 {
 
 .column h4 {
     float: left;
+    line-height: 31px;
+    padding: 0 0 0 45px;
+    background-repeat: no-repeat;
+    background-position: center left;
 }
+
+#trip h4 {
+    background-image: url("../img/plane.png");
+}
+
+#compatibility h4 {
+    background-image: url("../img/compatibility.png");
+}
+
+#work h4 {
+    background-image: url("../img/work.png");
+}
+
+#buy h4 {
+    background-image: url("../img/buy.png");
+}
+
+
 
 .count_concrete {
     float: right;
