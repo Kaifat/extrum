@@ -155,10 +155,14 @@ div#bg_main {
     background-position: center top;
     background-repeat: repeat;
     margin: 116px 0 0 0;
-    padding: 375px 0 0 0;
+    padding: 0;
     position: absolute;
     z-index: 5;
     min-height:100%;
+}
+
+div.with_banner div#bg_main {
+    padding: 375px 0 0 0 !important;
 }
 
 div#bg_bottom {
