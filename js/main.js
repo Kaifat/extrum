@@ -16,15 +16,16 @@ $(document).ready(function(){
     ];
 
     $(formInputs).each(function(i, inputObj) {
+
+        $(inputObj.el).blur(function() {
+            var currElem = this;
+            if ($(currElem).val() == "") {
+                $(currElem).val(inputObj.defVal);
+            }
+        });
+
         $(inputObj.el).click(function() {
             var currElem = this;
-
-            $(formInputs).each(function(j, elem) {
-                if ($(elem.el).val() == "") {
-                    $(elem.el).val(elem.defVal);
-                }
-            });
-
             if ($(currElem).val() == inputObj.defVal) {
                 $(currElem).val("");
             }
