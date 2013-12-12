@@ -87,15 +87,15 @@ form input[type=submit] {
 }
 
 div#bg_top {
-    background: url("../img/bg_top.png") transparent top center repeat-x;
+    background: url("../img/bg_top.png") transparent center top repeat-x;
     width:100%;
-    height: 620px;
+    height: 520px; /** 620 **/
     position: absolute;
     z-index: 5;
 }
 
 div#bg_subtop {
-    background: url("../img/bg_subtop.png") transparent top center no-repeat;
+    background: url("../img/bg_subtop.png") transparent center 55px no-repeat;
     width: 100%;
     height: 100%;
 }
@@ -116,8 +116,17 @@ div#bg_subtop {
 
 div#banner {
     width: 100%;
-    height: 422px;
+    height: 280px;
     background: url('../img/bg_banner.png') no-repeat center top;
+    padding: 122px 0 0 0;
+}
+
+div#banner h1 {
+    background: url("../img/bg_arrow.png") no-repeat scroll right top rgba(0, 0, 0, 0);
+    height: 140px;
+    line-height: 60px;
+    padding: 12px 50px 0;
+    width: 530px;
 }
 
 div#bg_main {
