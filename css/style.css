@@ -40,7 +40,7 @@ html, body {
     visibility: hidden;
 }
 
-p>span {
+.upper {
     text-transform: uppercase;
 }
 
@@ -270,9 +270,10 @@ h3 {
 #nav_menu ul li a {
     text-decoration: none;
     font-size: 16px;
-    line-height: 1em;
     color: #ffffff;
     padding-left: 55px;
+    width: 100%;
+    line-height: 40px;
 }
 
 #maths_analysis {
@@ -306,11 +307,21 @@ span.nbsp4 {
     padding: 15px 0 0 0;
 }
 
-#birthday form input.sm{
-    width: 50px;
+#mathAnalysForm input {
+    margin: 0 5px;
 }
-#birthday form input.norm{
+#mathAnalysForm input.sm{
+    width: 70px;
+}
+#mathAnalysForm input.norm{
     width: 120px;
+}
+#mathAnalysForm input.big{
+    width: 250px;
+}
+
+#mathAnalysForm p {
+    line-height: 50px;
 }
 
 #feedback,
