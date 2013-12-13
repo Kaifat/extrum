@@ -655,6 +655,12 @@ div.table {
 .chart_block {
     padding: 10px 0 0 0;
 }
+
+#men_chart {
+    background-url: url('../img/sprait/men.png');
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
 #positive {
     margin: 20px 0 5px 0;
     border-bottom: solid 1px #ea7a01;
