@@ -880,6 +880,18 @@ ul#numbers li {
     width: 50%;
 }
 
+.six_corners {
+    text-align: left;
+    margin: 15px 10px 0;
+}
+
+.hexagon_bg {
+    padding: 40px 10px 10px;
+    margin: 10px 0;
+    text-align:center;
+    background: url("../img/sprait/hexagon.png") no-repeat center top;
+}
+
 /*.sprites { background: url(sprites.png) no-repeat; }*/
 .nav_1 { width: 41px; height: 41px; background-position: 0 0; }
 .nav_1:hover { width: 41px; height: 41px; background-position: 0 -126px; }
