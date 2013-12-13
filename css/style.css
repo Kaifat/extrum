@@ -4,11 +4,11 @@
     font-weight: normal;
     font-style: normal;
     font-family: 'MyMyriadPro';
-    src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular.eot');
-    src: url('../fonts/MyriadPro-Regular/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/MyriadPro-Regular/MyriadPro-Regular.woff') format('woff'),
-    url('../fonts/MyriadPro-Regular/MyriadPro-Regular.ttf') format('truetype'),
-    url('../fonts/MyriadPro-Regular/MyriadPro-Regular.svg#webfont') format('svg');
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/MyriadPro-Regular.woff') format('woff'),
+    url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+    url('../fonts/MyriadPro-Regular.svg#webfont') format('svg');
 }
 
 /*GENERAL*/
