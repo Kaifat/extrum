@@ -120,4 +120,17 @@ $(document).ready(function(){
     });
 
 
+    function unifyHeights() {
+        var maxHeight = 0;
+        $('#counting').children('.table-cell').each(function() {
+            var height = $(this).outerHeight();
+            // alert(height);
+            if ( height > maxHeight ) {
+                maxHeight = height;
+            }
+        });
+        $("#counting").find(".table-cell").css('height', maxHeight);
+    }
+    unifyHeights();
+
 }); //end jQuery
