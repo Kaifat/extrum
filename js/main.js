@@ -48,6 +48,10 @@ $(document).ready(function(){
     $("#signs_accordion").find("h3").tooltip();
     $("#numbers_accordion").find("h3").tooltip();
 
+    $('#progress_intellect').progressbar({
+        value: 50
+    });
+
     // registration popup
     $( "#register_popup" ).dialog({
         autoOpen: false,

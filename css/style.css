@@ -768,6 +768,25 @@ div.table {
     text-align: center;
 }
 
+.progress_pt {
+    width: 25px;
+    height: 10px !important;
+    margin-top: 10px;
+    border-radius: 0 !important;
+    border:none !important;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    background-color: #94989e !important;
+    ba
+    background-url: none !important;
+}
+.progress_pt .ui-progressbar-value {
+    background-color: #2580a2 !important;
+}
+
 #intellect {
     background-image: url("../img/intelligence.png");
 }
