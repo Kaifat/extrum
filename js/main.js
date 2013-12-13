@@ -11,12 +11,12 @@ $(document).ready(function(){
 
         $('#square-up').css('height', positiveHeight + 'px');
         $('#square-up').css('line-height', positiveHeight + 'px');
-        $('#square-up').text('+'+negativePercent);
+        $('#square-up').text('+' + positivePercent);
 
         // negative chart
         $('#square-down').css('height', negativeHeight + 'px');
         $('#square-down').css('line-height', negativeHeight + 'px');
-        $('#square-down').text('-'+positivePercent);
+        $('#square-down').text('-' + negativeHeight);
     }
 
     $.datepicker.regional['ru'] = {

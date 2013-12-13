@@ -628,7 +628,12 @@ h4 {
 div#counting {
     /*height: 350px;*/
 }
-div.table {
+
+#counting {
+    overflow: hidden;
+}
+
+div.table-cell {
     width: 310px;
     border-color: #153952;
     border-radius: 3px;
@@ -637,9 +642,14 @@ div.table {
     background-image: url("../img/bg_table.png");
     background-repeat: repeat;
     background-position: center center;
-    margin:30px 10px 10px 10px;
     float: left;
+    margin-top:30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 0;
 }
+
 .chart_block {
     padding: 10px 0 0 0;
 }
