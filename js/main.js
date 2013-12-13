@@ -50,6 +50,19 @@ $(document).ready(function(){
     });
 
 
+    $('.details a').click(function() {
+        var self = $(this),
+            parent = self.parents('.info');
+        if (parent.hasClass('more_info')) {
+            parent.removeClass('more_info');
+        } else {
+            parent.addClass('more_info');
+        }
+        parent.find('div.full').toggle();
+        parent.find('div.short').toggle();
+    });
+
+    // HighCharts
     $('#spiderweb_container').highcharts({
 
         chart: {

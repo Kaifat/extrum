@@ -567,15 +567,14 @@ h4 {
     background-repeat: no-repeat;
     background-position: center top;
 }
-
-.more_info {
-    background-color: #0f0f0f;
-    border: solid 1px #10262f;
-    border-radius: 5px;
-}
-
 .info {
     padding: 5px 14px;
+    border: solid 1px transparent;
+}
+.more_info {
+    background-color: #0f0f0f;
+    border: solid 1px #10262f !important;
+    border-radius: 5px;
 }
 
 /*SPRITES*/
