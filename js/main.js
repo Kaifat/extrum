@@ -129,7 +129,8 @@ $(document).ready(function(){
                 maxHeight = height;
             }
         });
-        $("#counting").find(".table-cell").css('height', maxHeight);
+        $("#counting").find(".table-cell").css('min-height', maxHeight);
+        //$("#counting").find(".table-cell").css('height', maxHeight);
     }
     unifyHeights();
 
