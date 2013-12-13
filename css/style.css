@@ -649,7 +649,14 @@ div.table {
     margin:30px 10px 10px 10px;
     float: left;
 }
-
+#heart_inside {
+    background: url("../img/heart.jpg") no-repeat 49% 49% transparent;
+}
+#heart_container_chart,
+#heart_inside {
+    width: 225px;
+    height: 225px;
+}
 .title_table {
     font-size: 14px;
     line-height: 30px;

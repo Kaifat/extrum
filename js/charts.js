@@ -3,7 +3,6 @@ $(document).ready(function(){
     $('#heart_container_chart').highcharts({
         chart: {
             backgroundColor:'transparent',
-            ba
             plotBackgroundColor: null,
             plotBorderWidth: null,
             plotShadow: false
@@ -17,18 +16,18 @@ $(document).ready(function(){
         plotOptions: {
             pie: {
                 borderWidth: 0,
-                innerSize: 80,
+                innerSize: 45,
                 allowPointSelect: true,
                 cursor: 'pointer',
                 dataLabels: {
                     enabled: true,
                     color: '#ffffff',
-                    distance: -30,
+                    distance: -20,
                     formatter: function() {
                         return this.point.name;
                     },
                     style: {
-                        fontSize: '15px'
+                        fontSize: '14px'
                     }
                 }
             }
@@ -40,22 +39,26 @@ $(document).ready(function(){
                 {
                     name: '-6',
                     y: 6,
-                    color: '#656869'
+                    color: '#656869',
+                    borderWidth: 0
                 },
                 {
                     name: '+11',
                     y: 11,
-                    color: '#be9a58'
+                    color: '#be9a58',
+                    borderWidth: 0
                 },
                 {
                     name: '+18',
                     y: 18,
-                    color: '#ba724e'
+                    color: '#ba724e',
+                    borderWidth: 0
                 },
                 {
                     name: '+65',
                     y: 65,
-                    color: '#7db4c1'
+                    color: '#7db4c1',
+                    borderWidth: 0
                 }
             ]
         }]
