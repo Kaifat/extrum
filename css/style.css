@@ -631,11 +631,11 @@ h4 {
 }
 
 #tuning {
-    background-color: #e37402;
+    background: url("../img/analisy_button.png") repeat-x scroll left 45% transparent;
 }
 
 #exit {
-    background-color: #1f7c9e;
+    background: url("../img/bg_blue_num.png") repeat-x scroll left center transparent;
 }
 div#counting {
     /*height: 350px;*/
@@ -740,6 +740,7 @@ div.table {
 .num_blue {
     background: url("../img/bg_blue_num.png") repeat-x scroll left center transparent;
 }
+
 
 
 .table_row_bg {
