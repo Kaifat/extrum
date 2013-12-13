@@ -588,13 +588,21 @@ h4 {
 .box_title {
     line-height: 3em;
 }
+
+.mt3 {
+    margin-top: 3px;
+}
 .mt18 {
     margin-top: 18px;
 }
 
 #forum_name {
     font-size: 16px;
-    text-decoration: underline;
+
+    /*text-decoration: underline;*/
+}
+#forum_name a {
+    color: #ffffff;
 }
 
 #forum_date {
@@ -628,17 +636,35 @@ h4 {
 }
 
 div.table {
-    width: 304px;
+    width: 310px;
     height: 302px;
+    border-color: #153952;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
     background-image: url("../img/bg_table.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center center;
-    margin: 0 0 0 14px;
+    margin:30px 10px 10px 10px;
     float: left;
 }
 
-div.table:first-child {
-    margin: 0;
+.title_table {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 5px 15px;
+}
+
+.table_row_bg {
+    background-image: url("../img/bg_box3_main.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 70px;
+}
+
+.table_col {
+    margin: 0 15px;
+    padding: 10px 0;
 }
 
 #table_3_top {
@@ -681,14 +707,6 @@ div.table:first-child {
 #hardworking {
     background-image: url("../img/industry.png");
 }
-
-#table_3_main {
-    height: 255px;
-    background-image: url("../img/bg_box3_main.png")!important;
-    background-repeat: no-repeat;
-    background-position: center top;
-}
-
 
 /*.sprites { background: url(sprites.png) no-repeat; }*/
 .nav_1 { width: 41px; height: 41px; background-position: 0 0; }
