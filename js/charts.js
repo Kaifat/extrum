@@ -5,7 +5,12 @@ $(document).ready(function(){
             backgroundColor:'transparent',
             plotBackgroundColor: null,
             plotBorderWidth: null,
-            plotShadow: false
+            plotShadow: false,
+            margin: [0, 0, 0, 0],
+            spacingTop: 0,
+            spacingBottom: 0,
+            spacingLeft: 0,
+            spacingRight: 0
         },
         title: {
             text: ''
@@ -16,6 +21,7 @@ $(document).ready(function(){
         plotOptions: {
             pie: {
                 borderWidth: 0,
+                size:'100%',
                 innerSize: 45,
                 allowPointSelect: true,
                 cursor: 'pointer',

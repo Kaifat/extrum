@@ -807,6 +807,7 @@ body .ui-tooltip {
 	border: 1px solid #3d3d3d;
     border-radius: 5px;
 	color: #333333;
+    background-color: rgba(11, 24, 40, 0.7);
 }
 .ui-widget-content a {
 	color: #333333;
