@@ -398,6 +398,7 @@ button.ui-button::-moz-focus-inner {
 	left: 0;
 	padding: .2em;
 	outline: 0;
+    background: url(images/bg_popup.jpg) center top repeat;
 }
 .ui-dialog .ui-dialog-titlebar {
 	padding: 1em 2em;
@@ -805,7 +806,6 @@ body .ui-tooltip {
 .ui-widget-content {
 	border: 1px solid #3d3d3d;
     border-radius: 5px;
-    background: url(images/bg_popup.jpg) center top repeat;
 	color: #333333;
 }
 .ui-widget-content a {

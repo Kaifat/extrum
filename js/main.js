@@ -48,8 +48,21 @@ $(document).ready(function(){
     $("#signs_accordion").find("h3").tooltip();
     $("#numbers_accordion").find("h3").tooltip();
 
+    // progressbars
     $('#progress_intellect').progressbar({
         value: 50
+    });
+    $('#progress_lucky').progressbar({
+        value: 20
+    });
+    $('#progress_character').progressbar({
+        value: 70
+    });
+    $('#progress_talent').progressbar({
+        value: 30
+    });
+    $('#progress_hardworking').progressbar({
+        value: 40
     });
 
     // registration popup

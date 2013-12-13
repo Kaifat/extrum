@@ -754,11 +754,9 @@ div.table {
 
 #table_3_top>div {
     float: left;
-    background-repeat: no-repeat;
-    background-position: right top;
     height: 48px;
     width: 48px;
-    margin: 0 5px;
+    margin: 10px 5px;
 
 }
 
@@ -768,43 +766,57 @@ div.table {
     text-align: center;
 }
 
-.progress_pt {
-    width: 25px;
-    height: 10px !important;
-    margin-top: 10px;
+.progress_pt,
+.progress_pt .ui-progressbar-value {
     border-radius: 0 !important;
     border:none !important;
+}
+
+.progress_pt {
+    width: 24px; /* in reality it is height */
+    height: 10px !important; /* in reality it is width */
+    margin: 10px 0 10px -4px;
     -webkit-transform: rotate(270deg);
     -moz-transform: rotate(270deg);
     -o-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
     background-color: #94989e !important;
-    ba
     background-url: none !important;
 }
 .progress_pt .ui-progressbar-value {
     background-color: #2580a2 !important;
+    margin: 0 !important;
 }
 
 #intellect {
     background-image: url("../img/intelligence.png");
+    background-repeat: no-repeat;
+    background-position: 20px 3px;
 }
 
 #lucky {
     background-image: url("../img/fortune.png");
+    background-repeat: no-repeat;
+    background-position: 20px 3px;
 }
 
 #character {
     background-image: url("../img/character.png");
+    background-repeat: no-repeat;
+    background-position: 20px 0;
 }
 
 #talent {
     background-image: url("../img/talent.png");
+    background-repeat: no-repeat;
+    background-position: 20px 0;
 }
 
 #hardworking {
     background-image: url("../img/industry.png");
+    background-repeat: no-repeat;
+    background-position: 20px 3px;
 }
 
 ul#numbers {
