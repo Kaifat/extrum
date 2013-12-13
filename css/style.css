@@ -656,7 +656,6 @@ div.table {
     padding: 5px 15px;
 }
 .num_square {
-    background: url("../img/analisy_button.png") repeat-x scroll left 45% transparent;
     border: medium none;
     border-radius: 2px;
     height: 25px;
@@ -668,12 +667,30 @@ div.table {
     margin: 0 15px 0 0;
 }
 
+.num_orange {
+    background: url("../img/analisy_button.png") repeat-x scroll left 45% transparent;
+}
+
+.num_white {
+    background:  url("../img/bg_white_num.png") repeat-x scroll left center transparent;
+    color: #747474;
+}
+
+.num_blue {
+    background: url("../img/bg_blue_num.png") repeat-x scroll left center transparent;
+}
+
+
 .table_row_bg {
     background-image: url("../img/bg_box3_main.png");
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center -5px;
     min-height: 70px;
+}
+
+.table_row_bg_side {
+    background: url("../img/bg_row.png") no-repeat top right;
 }
 
 .title_h3 {
