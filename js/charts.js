@@ -1,7 +1,68 @@
 $(document).ready(function(){
 
+    $('#heart_container_chart').highcharts({
+        chart: {
+            backgroundColor:'transparent',
+            ba
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false
+        },
+        title: {
+            text: ''
+        },
+        tooltip: {
+            pointFormat: '{series.name}'
+        },
+        plotOptions: {
+            pie: {
+                borderWidth: 0,
+                innerSize: 80,
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    color: '#ffffff',
+                    distance: -30,
+                    formatter: function() {
+                        return this.point.name;
+                    },
+                    style: {
+                        fontSize: '15px'
+                    }
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: 'Year Stat',
+            data: [
+                {
+                    name: '-6',
+                    y: 6,
+                    color: '#656869'
+                },
+                {
+                    name: '+11',
+                    y: 11,
+                    color: '#be9a58'
+                },
+                {
+                    name: '+18',
+                    y: 18,
+                    color: '#ba724e'
+                },
+                {
+                    name: '+65',
+                    y: 65,
+                    color: '#7db4c1'
+                }
+            ]
+        }]
+    });
+
     // HighCharts
-    $('#spiderweb_container').highcharts({
+    $('#spiderweb_container_chart').highcharts({
 
         chart: {
             backgroundColor:'transparent',
@@ -44,7 +105,7 @@ $(document).ready(function(){
 
         tooltip: {
             shared: true,
-            pointFormat: '<span style="color:{series.color}">{series.name}: <b>${point.y:,.0f}</b><br/>'
+            pointFormat: '<span style="color:{series.color}">{series.name}: <b>{point.y}</b><br/>'
         },
 
         legend: {
