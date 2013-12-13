@@ -689,10 +689,6 @@ div.table {
     min-height: 70px;
 }
 
-.table_row_bg_side {
-    background: url("../img/bg_row.png") no-repeat top right;
-}
-
 .title_h3 {
     color: #41C2F2;
     font-size: 13px;
@@ -791,6 +787,11 @@ ul#numbers {
 }
 ul#numbers li {
     padding: 7px;
+}
+
+#shadow_row {
+    background: url("../img/bg_row.png") repeat-y top right -5px;
+    width: 50%;
 }
 
 /*.sprites { background: url(sprites.png) no-repeat; }*/
