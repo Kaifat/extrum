@@ -66,6 +66,7 @@ $(document).ready(function(){
     $('#spiderweb_container').highcharts({
 
         chart: {
+            backgroundColor:'transparent',
             polar: true,
             type: 'line'
         },
