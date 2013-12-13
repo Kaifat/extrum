@@ -286,7 +286,7 @@ h3 {
     text-decoration: none;
     font-size: 16px;
     color: #ffffff;
-    padding-left: 55px;
+    padding: 0 30px 0 50px;
     width: 100%;
     min-width: 100%;
     line-height: 40px;
@@ -438,7 +438,7 @@ p.details {
 
 p.read_more a,
 p.count_concrete a,
-p.details a{
+p.details a {
     font-size: 12px;
     color: #ffffff;
     padding: 0 8px;
