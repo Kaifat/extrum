@@ -628,6 +628,67 @@ h4 {
     background-color: #1f7c9e;
 }
 
+div.table {
+    width: 304px;
+    height: 302px;
+    background-image: url("../img/bg_table.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 0 0 14px;
+    float: left;
+}
+
+div.table:first-child {
+    margin: 0;
+}
+
+#table_3_top {
+    height: 70px;
+    width: 100%;
+}
+
+#table_3_top>div {
+    float: left;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 48px;
+    width: 48px;
+    margin: 0 5px;
+
+}
+
+#table_3_top p {
+    font-size: 11px;
+    line-height: 25px;
+    text-align: center;
+}
+
+#intellect {
+    background-image: url("../img/intelligence.png");
+}
+
+#lucky {
+    background-image: url("../img/fortune.png");
+}
+
+#character {
+    background-image: url("../img/character.png");
+}
+
+#talent {
+    background-image: url("../img/talent.png");
+}
+
+#hardworking {
+    background-image: url("../img/industry.png");
+}
+
+#table_3_main {
+    height: 255px;
+    background-image: url("../img/bg_box3_main.png")!important;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
 
 
 /*.sprites { background: url(sprites.png) no-repeat; }*/
