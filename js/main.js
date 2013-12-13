@@ -27,6 +27,27 @@ $(document).ready(function(){
         changeYear: true
     });
 
+    var icons = {
+        header: "ui-icon-carat-1-e",
+        activeHeader: "ui-icon-carat-1-s"
+    };
+    $( "#signs_accordion" ).accordion({
+        collapsible: true,
+        active: false,
+        icons: icons,
+        heightStyle: "content"
+    });
+
+    $( "#numbers_accordion" ).accordion({
+        collapsible: true,
+        active: false,
+        heightStyle: "content",
+        icons: false
+    });
+
+    $("#signs_accordion").find("h3").tooltip();
+    $("#numbers_accordion").find("h3").tooltip();
+
     // registration popup
     $( "#register_popup" ).dialog({
         autoOpen: false,

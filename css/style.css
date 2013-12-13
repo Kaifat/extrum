@@ -634,10 +634,11 @@ h4 {
 #exit {
     background-color: #1f7c9e;
 }
-
+div#counting {
+    /*height: 350px;*/
+}
 div.table {
     width: 310px;
-    height: 302px;
     border-color: #153952;
     border-radius: 3px;
     border-width: 1px;
@@ -654,12 +655,71 @@ div.table {
     line-height: 30px;
     padding: 5px 15px;
 }
+.num_square {
+    background: url("../img/analisy_button.png") repeat-x scroll left 45% transparent;
+    border: medium none;
+    border-radius: 2px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    float: left;
+    margin: 0 15px 0 0;
+}
 
 .table_row_bg {
     background-image: url("../img/bg_box3_main.png");
+    background-color: transparent;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center -5px;
     min-height: 70px;
+}
+
+.title_h3 {
+    color: #41C2F2;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#signs_accordion h3,
+#signs_accordion div,
+#numbers_accordion h3,
+#numbers_accordion div {
+    color: #ffffff;
+    border: none !important;
+    border-radius: 0 !important;
+}
+#signs_accordion h3,
+#numbers_accordion h3 {
+    background-image: url("../img/bg_box3_main.png") !important;
+    background-repeat: no-repeat;
+    background-position: center -5px;
+    background-color: transparent;
+    min-height: 20px;
+    text-transform: none;
+    font-weight: normal;
+}
+#signs_accordion h3 {
+    font-size: 14px;
+    line-height: 20px;
+}
+#numbers_accordion h3 {
+    line-height: 13px;
+}
+#signs_accordion h3 a.help,
+#numbers_accordion h3 a.help {
+    text-indent: -10000px;
+    width: 19px;
+    height: 19px;
+    background: url("../img/sprait/question_mark.png") no-repeat center top transparent;
+    float: right;
+    display: block;
+}
+
+#signs_accordion div,
+#numbers_accordion div {
+    font-size: 13px;
 }
 
 .table_col {
@@ -706,6 +766,14 @@ div.table {
 
 #hardworking {
     background-image: url("../img/industry.png");
+}
+
+ul#numbers {
+    margin: 0 5px;
+    padding: 10px 0 0 0;
+}
+ul#numbers li {
+    padding: 7px;
 }
 
 /*.sprites { background: url(sprites.png) no-repeat; }*/

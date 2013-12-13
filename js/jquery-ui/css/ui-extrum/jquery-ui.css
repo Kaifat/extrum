@@ -784,6 +784,8 @@ button.ui-button::-moz-focus-inner {
 }
 body .ui-tooltip {
 	border-width: 2px;
+    background: #666666 url(images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat;
+    color: #ffffff;
 }
 
 /* Component containers
@@ -940,14 +942,14 @@ body .ui-tooltip {
 	background-image: url(images/ui-icons_ffffff_256x240.png);
 }
 .ui-state-default .ui-icon {
-	background-image: url(images/ui-icons_222222_256x240.png);
+	background-image: url(images/ui-icons_228ef1_256x240.png);
 }
 .ui-state-hover .ui-icon,
 .ui-state-focus .ui-icon {
-	background-image: url(images/ui-icons_222222_256x240.png);
+	background-image: url(images/ui-icons_228ef1_256x240.png);
 }
 .ui-state-active .ui-icon {
-	background-image: url(images/ui-icons_ef8c08_256x240.png);
+	background-image: url(images/ui-icons_228ef1_256x240.png);
 }
 .ui-state-highlight .ui-icon {
 	background-image: url(images/ui-icons_228ef1_256x240.png);
