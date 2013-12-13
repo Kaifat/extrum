@@ -47,6 +47,9 @@ html, body {
 .fl_left {
     float: left;
 }
+.fl_right {
+    float: right;
+}
 
 a.orange {
     color: #e89725;
@@ -649,13 +652,58 @@ div.table {
     margin:30px 10px 10px 10px;
     float: left;
 }
+.chart_block {
+    padding: 10px 0 0 0;
+}
+#positive {
+    margin: 20px 0 5px 0;
+    border-bottom: solid 1px #ea7a01;
+    padding-left: 34px;
+    width: 56px;
+}
+#negative {
+    margin: 5px 0 0 34px;
+    border-top: solid 1px #2a8eb2;
+    padding-right: 34px;
+    width: 56px;
+}
+#triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    border-bottom: 20px solid #ea7a01;
+}
+#triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 28px solid transparent;
+    border-right: 28px solid transparent;
+    border-top: 20px solid #2a8eb2;
+}
+#square-up,
+#square-down {
+    width: 56px;
+    text-align: center;
+    font-size: 17px;
+    color: #ffffff;
+}
+#square-up {
+    background: #ea7a01;
+    padding-bottom: 5px;
+}
+#square-down {
+    background: #2a8eb2;
+    padding-top: 5px;
+}
+
 #heart_inside {
     background: url("../img/heart.jpg") no-repeat 49% 49% transparent;
 }
 #heart_container_chart,
 #heart_inside {
-    width: 225px;
-    height: 225px;
+    width: 150px;
+    height: 160px;
 }
 .title_table {
     font-size: 14px;
@@ -743,7 +791,7 @@ div.table {
 }
 
 .table_col {
-    margin: 0 15px;
+    margin: 0 5px 0 15px;
     padding: 10px 0;
 }
 

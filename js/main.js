@@ -1,5 +1,15 @@
 $(document).ready(function(){
 
+    // positive chart
+    $('#square-up').css('height', '50px');
+    $('#square-up').css('line-height', '50px');
+    $('#square-up').text('+65');
+
+    // negative chart
+    $('#square-down').css('height', '20px');
+    $('#square-down').css('line-height', '20px');
+    $('#square-down').text('+35');
+
     $.datepicker.regional['ru'] = {
         closeText: 'Закрыть',
         prevText: '&#x3c;Пред',
