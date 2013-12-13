@@ -1,15 +1,22 @@
 $(document).ready(function(){
 
     // positive chart
-    if (typeof($('#men_chart') !== 'undefined')) {
-        $('#square-up').css('height', '50px');
-        $('#square-up').css('line-height', '50px');
-        $('#square-up').text('+65');
+    if ($('#men_chart').length) {
+
+        var totalHeight = 100,
+            positivePercent = 65,
+            negativePercent = 100 - positivePercent,
+            positiveHeight = Math.round((totalHeight * positivePercent)/100),
+            negativeHeight = Math.round((totalHeight * negativePercent)/100);
+
+        $('#square-up').css('height', positiveHeight + 'px');
+        $('#square-up').css('line-height', positiveHeight + 'px');
+        $('#square-up').text('+'+negativePercent);
 
         // negative chart
-        $('#square-down').css('height', '20px');
-        $('#square-down').css('line-height', '20px');
-        $('#square-down').text('+35');
+        $('#square-down').css('height', negativeHeight + 'px');
+        $('#square-down').css('line-height', negativeHeight + 'px');
+        $('#square-down').text('-'+positivePercent);
     }
 
     $.datepicker.regional['ru'] = {

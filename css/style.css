@@ -657,12 +657,13 @@ div.table {
 }
 
 #men_chart {
-    background-url: url('../img/sprait/men.png');
+    background-image: url('../img/sprait/men.png');
     background-repeat: no-repeat;
     background-color: transparent;
+    background-position: left 42%;
 }
 #positive {
-    margin: 20px 0 5px 0;
+    margin: 0px 0 5px 0;
     border-bottom: solid 1px #ea7a01;
     padding-left: 34px;
     width: 56px;
