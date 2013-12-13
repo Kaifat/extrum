@@ -20,18 +20,6 @@ html, body {
     min-height:100%;
 }
 
-/*a {*/
-/*text-decoration: none;*/
-/*}*/
-
-/*p>a {*/
-/*color: #da2149;*/
-/*}*/
-
-/*p>a:visited {*/
-/*color: #731126;*/
-/*}*/
-
 .clearfix:after {
     content: ".";
     display: block;
@@ -667,11 +655,12 @@ div.table-cell {
 }
 
 #men_chart {
-    background-image: url('../img/sprait/men.png');
+    background-image: url('../img/sprait/man.png');
     background-repeat: no-repeat;
     background-color: transparent;
     background-position: left 42%;
 }
+
 #positive {
     margin: 0px 0 5px 0;
     border-bottom: solid 1px #ea7a01;
@@ -908,6 +897,23 @@ ul#numbers li {
     margin: 10px 0;
     text-align:center;
     background: url("../img/sprait/hexagon.png") no-repeat center top;
+}
+
+#legend {
+    margin: 10px 0 0 0;
+}
+
+#legend span {
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    width: 42px;
+    opacity: 0.7;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px 5px 0;
 }
 
 /*.sprites { background: url(sprites.png) no-repeat; }*/
