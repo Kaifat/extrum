@@ -315,6 +315,8 @@ h3 {
 
 #decsr_analis {
     padding: 60px 0 0 214px;
+    background: url("../img/shadow_above.png") no-repeat center top !important;
+
 }
 span.nbsp1 {
     padding: 0 0 0 10px;
@@ -639,12 +641,10 @@ h4 {
 #exit {
     background: url("../img/bg_blue_num.png") repeat-x scroll left center transparent;
 }
-div#counting {
-    /*height: 350px;*/
-}
 
 #counting {
     overflow: hidden;
+    background: url("../img/shadow_above.png") no-repeat center top !important;
 }
 
 div.table-cell {
@@ -931,6 +931,7 @@ ul#numbers li {
     text-decoration: none;
     margin: 5px 10px 5px 0;
 }
+
 
 /*.sprites { background: url(sprites.png) no-repeat; }*/
 .nav_1 { width: 41px; height: 41px; background-position: 0 0; }
