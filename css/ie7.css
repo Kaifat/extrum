@@ -19,3 +19,24 @@ h3,
 .title_h3 {
     font-size: 12px;
 }
+
+#nav_menu {
+    width: 1000px;
+}
+#nav_menu ul li {
+    float: left;
+    display: block;
+    padding-right: 15px;
+}
+#nav_menu ul li a {
+    width: auto;
+    min-width: auto;
+}
+
+.read_more a,
+.count_concrete a,
+.details a {
+    width: auto;
+    float: left;
+    display: block;
+}
