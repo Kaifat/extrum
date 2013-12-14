@@ -5,18 +5,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Extrum</title>
 
-    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE"/>
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <!--[if IE 7 ]>
-    <link rel="stylesheet" type="text/css" href="css/ie7.css">
+    <link rel="stylesheet" type="text/css" href="css/ie7.css"/>
     <![endif]-->
 
     <!-- jQuery -->
     <script src="./js/jquery-1.10.2.min.js" type="text/javascript"></script>
-    <link href="./js/jquery-ui/css/ui-extrum/jquery-ui.css" type="text/css" rel="stylesheet">
+    <link href="./js/jquery-ui/css/ui-extrum/jquery-ui.css" type="text/css" rel="stylesheet"/>
     <script src="./js/jquery-ui/jquery-ui-1.10.3.custom.min.js" type="text/javascript"></script>
     <script src="./js/json2.js" type="text/javascript"></script>
 
@@ -32,10 +32,7 @@
 </head>
 
 <body>
-<div id="page_wrapper" class="with_banner">
-<div id="banner_wrap">
-    <h1>&nbsp;</h1>
-</div>
+<div id="page_wrapper">
 <div id="bg_top">
     <div id="bg_subtop">
         <div class="centralPosition">
@@ -44,23 +41,24 @@
                     <div id="logo" class="fl_left"><a href="#">Экструм</a></div>
                     <div id="searchForm" class="fl_left">
                         <form action="#" name="search" method="post">
-                            <input type="text" name="searchText" id="searchText" value="" class="place_holder" placeholder="Поиск по сайту">
+                            <input type="text" name="searchText" id="searchText" value="" class="place_holder"
+                                   placeholder="Поиск по сайту">
                         </form>
                     </div>
                     <div id="registration_form">
                         <div class="mt18">
                             <p class="fl_left mt3">Вы вошли как:&nbsp;</p>
+
                             <div class="fl_left">
                                 <p id="forum_name"><a href="#">Владимир Владимирович</a></p>
+
                                 <p id="forum_date">Дата рождения 17.02.1988</p>
                             </div>
                             <p id="tuning" class="fl_left"><a href="#">настройки</a></p>
+
                             <p id="exit" class="fl_left"><a href="#">выйти</a></p>
                         </div>
                     </div>
-                </div>
-                <div id="banner">
-                    <h1><span>Математический</span><br> анализ существования</h1>
                 </div>
             </div>
             <!--end header_top-->
@@ -69,438 +67,280 @@
 </div>
 <!-- end bg_top -->
 <div id="bg_main">
-    <div id="bg_right"></div>
-    <div id="bg_bottom"></div>
+<div id="bg_right"></div>
+<div id="bg_bottom"></div>
 
-    <div id="bg_shadow">
-        <div class="centralPosition">
-            <div id="header">
-                <div id="nav_menu">
-                    <ul>
-                        <li><a class="nav_sprite nav_1" href="#">Главная</a></li>
-                        <li><a class="nav_sprite nav_2" href="#">О проекте</a></li>
-                        <li><a class="nav_sprite nav_3" href="#">Вопросы и ответы</a></li>
-                        <li><a class="nav_sprite nav_4" href="#">Эксклюзив</a></li>
-                        <li><a class="nav_sprite nav_5" href="#">Сделать расчет</a></li>
-                        <li><a class="nav_sprite nav_6" href="#">Отзывы</a></li>
+<div id="bg_shadow">
+<div class="centralPosition">
+    <div id="header">
+        <div id="nav_menu">
+            <ul>
+                <li><a class="nav_sprite nav_1" href="#">Главная</a></li>
+                <li><a class="nav_sprite nav_2" href="#">О проекте</a></li>
+                <li><a class="nav_sprite nav_3" href="#">Вопросы и ответы</a></li>
+                <li><a class="nav_sprite nav_4" href="#">Эксклюзив</a></li>
+                <li><a class="nav_sprite nav_5" href="#">Сделать расчет</a></li>
+                <li><a class="nav_sprite nav_6" href="#">Отзывы</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--end header-->
+</div>
+
+<div class="centralPosition">
+    <div id="counting" class="clearfix">
+        <div class="table-cell">
+            <div class="title_table">Пример расчета 01.01.2013</div>
+            <div class="table_row_bg">
+                <div class="table_col">
+                    <h3>Основные события на 3013</h3>
+
+                    <div class="chart_block clearfix">
+                        <div class="fl_right">
+                            <div id="heart_inside">
+                                <div id="heart_container_chart"></div>
+                            </div>
+                        </div>
+                        <div id="men_chart" class="clearfix">
+                            <div id="positive">
+                                <div id="triangle-up"></div>
+                                <div id="square-up"></div>
+                            </div>
+                            <div id="negative">
+                                <div id="square-down"></div>
+                                <div id="triangle-down"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="legend">
+                        <p><span class="num_blue">2013</span>Возможный кризис</p>
+
+                        <p><span class="num_orange">42\4</span>Опасные дни в году</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="table-cell">
+            <div class="title_table">Особые знаки</div>
+            <div class="table_row_bg">
+                <div id="signs_accordion">
+                    <h3>Стрелка планирования <a class="help" title="Стрелка планирования это ...">help</a></h3>
+
+                    <div>[Подробно про Стрелка планирования]</div>
+                    <h3>Стрелка разочарования <a class="help" title="Стрелка разочарования это ...">help</a></h3>
+
+                    <div>[Подробно про Стрелка разочарования]</div>
+                    <h3>Стрелка пассивности <a class="help" title="Стрелка пассивности это ...">help</a></h3>
+
+                    <div>[Подробно про Стрелка пассивности]</div>
+                </div>
+                <div id="numbers_accordion">
+                    <h3>
+                        <a class="help" title="Числа судьбы это ...">help</a>
+                        <span class="num_square num_orange">3</span>
+                        <span class="title_h3">Числа судьбы</span>
+                        <br>
+                        оптимизм
+                    </h3>
+
+                    <div>[Подробно про числа судьбы]</div>
+                    <h3>
+                        <span class="num_square num_orange">7</span>
+                        <span class="title_h3">Числа судьбы</span>
+                        <br>
+                        оптимизм
+                    </h3>
+
+                    <div>[Подробно про числа судьбы]</div>
+                    <h3>
+                        <span class="num_square num_orange">5</span>
+                        <span class="title_h3">Числа судьбы</span>
+                        <br>
+                        оптимизм
+                    </h3>
+
+                    <div>[Подробно про числа судьбы]</div>
+                    <h3>
+                        <span class="num_square num_orange">8</span>
+                        <span class="title_h3">Числа судьбы</span>
+                        <br>
+                        оптимизм
+                    </h3>
+
+                    <div>[Подробно про числа судьбы]</div>
+                </div>
+            </div>
+        </div>
+        <div class="table-cell">
+            <div id="table_3_top">
+                <div id="intellect">
+                    <div class="progress_pt" id="progress_intellect"></div>
+                    <p>Интеллект</p>
+                </div>
+                <div id="lucky">
+                    <div class="progress_pt" id="progress_lucky"></div>
+                    <p>Удача</p>
+                </div>
+                <div id="character">
+                    <div class="progress_pt" id="progress_character"></div>
+                    <p>Характер</p>
+                </div>
+                <div id="talent">
+                    <div class="progress_pt" id="progress_talent"></div>
+                    <p>Талант</p>
+                </div>
+                <div id="hardworking">
+                    <div class="progress_pt" id="progress_hardworking"></div>
+                    <p>Трудолюбие</p>
+                </div>
+
+            </div>
+            <div class="table_row_bg">
+                <div id="shadow_row" class="fl_left">
+                    <ul id="numbers">
+                        <li>
+                            <span class="num_square num_orange">5</span>
+                            <span class="title_h3">Числа судьбы</span>
+                            <br>
+                            оптимизм
+                        </li>
+                        <li>
+                            <span class="num_square num_white">1</span>
+                            <span class="title_h3">Числа судьбы</span>
+                            <br>
+                            оптимизм
+                        </li>
+                        <li>
+                            <span class="num_square num_blue">3</span>
+                            <span class="title_h3">Числа судьбы</span>
+                            <br>
+                            оптимизм
+                        </li>
+                        <li>
+                            <span class="num_square num_white">2</span>
+                            <span class="title_h3">Числа судьбы</span>
+                            <br>
+                            оптимизм
+                        </li>
+                        <li>
+                            <span class="num_square num_white">1</span>
+                            <span class="title_h3">Числа судьбы</span>
+                            <br>
+                            оптимизм
+                        </li>
+                        <li>
+                            <span class="num_square num_white">2</span>
+                            <span class="title_h3">Числа судьбы</span>
+                            <br>
+                            оптимизм
+                        </li>
                     </ul>
                 </div>
+                <div class="six_corners fl_left">
+                    <h3>Характер</h3>
+
+                    <div class="hexagon_bg fl_left">
+                        <span class="title_h3">Норм</span>
+                        <br>
+                        хорошо
+                    </div>
+                    <div class="hexagon_bg fl_left">
+                        <span class="title_h3">Норм</span>
+                        <br>
+                        хорошо
+                    </div>
+                </div>
+                <div class="six_corners fl_left">
+                    <h3>Энегрия</h3>
+
+                    <div class="hexagon_bg fl_left">
+                        <span class="title_h3">Норм</span>
+                        <br>
+                        хорошо
+                    </div>
+                    <div class="hexagon_bg fl_left">
+                        <span class="title_h3">Норм</span>
+                        <br>
+                        хорошо
+                    </div>
+                </div>
+
+
             </div>
-            <!--end header-->
+
         </div>
 
-        <div id="maths_analysis">
-            <div class="centralPosition">
-                <div id="decsr_analis">
-                    <h3>Математический анализ существования онлайн</h3>
-
-                    <p id="description_text">
-                        <span class="upper">Экструм</span> - это крупнейшее в рунете собрание онлайн-сервисов по
-                        нумерологии. Проект работает с 2006 года. Сегодня портал
-                        <br><span class="nbsp1"></span>насчитывает более 800 000 зарегистрированных пользователей.
-                        За все время работы посетители нашего сайта выполнили более
-                        <br><span class="nbsp2"></span>3 000 000 расчетов по нумерологии. Нумерология позволяет
-                        извлечь подробную и важную информацию, котрая содержится
-                        <br><span class="nbsp3"></span>в нашей дате рождения и имени. Скрытые и нереализованные
-                        таланты, истинные устремения, судьба. Нумерологический
-                        <br><span class="nbsp4"></span>анализ подскажет как быть, что делать и чего нужно избегать.
-                        Это ваш личный, неповторимый путь к успеху и духовному росту.</p>
-                </div>
-                <div id="form_analys">
-                    <h2>Мaтематический анализ имени и даты рождения онлайн</h2>
-
-                    <div id="gen" class="clearfix">
-                        <form action="#" method="post" id="mathAnalysForm">
-                            <div class="fl_left">
-                                <p>
-                                    <label>Дата рождения</label>
-                                    <input type="text" class="sm" name="day" value="">
-                                    <input type="text" class="sm" name="month" value="">
-                                    <input type="text" class="norm" name="year" value="">
-                                    <span>дд/мм/гггг</span>
-                                </p>
-
-                                <p>
-                                    <label>Ф.И.О.</label>
-                                    <input type="text" class="big" name="surname" value="">
-                                </p>
-                            </div>
-                            <div id="button_analysis">
-                                <a href="#" title="Узнать результат">Узнать<br>результат</a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!--end maths_analysis-->
-            </div>
-        </div>
-
-        <div class="centralPosition">
-            <div id="articles" class="clearfix">
-                <div id="feedback" class="fl_left">
-                    <h3>Отзывы</h3>
-
-                    <div class="article">
-                        <p class="feedback_date">April 4, 2013 / 13:59</p>
-
-                        <p class="feedback_author">Alex Sanchos</p>
-
-                        <p>Открыты новые раздела сайта,
-                            бонусы и секретные материалы,
-                            новые статьи по нумерологии
-                            в на шей библиотеке!
-                        </p>
-
-                        <div class="read_more"><a class="num_blue" href="#">подробнее</a></div>
-                    </div>
-                    <div class="article">
-                        <p class="feedback_date">April 4, 2013 / 13:59</p>
-
-                        <p class="feedback_author">Alex Sanchos</p>
-
-                        <p>Открыты новые раздела сайта,
-                            бонусы и секретные материалы,
-                            новые статьи по нумерологии
-                            в на шей библиотеке!
-                        </p>
-
-                        <div class="read_more"><a class="num_blue" href="#">подробнее</a></div>
-                    </div>
-                </div>
-                <!--end feedback-->
-                <div id="news" class="fl_left">
-                    <h3>Новости</h3>
-
-                    <div class="article">
-                        <p class="news_date">26 Март 2012</p>
-
-                        <p class="news_name">Открыт новы раздел сайта</p>
-
-                        <p>Открыты новые раздела сайта,
-                            бонусы и секретные материалы,
-                            новые статьи по нумерологии
-                            в на шей библиотеке!
-                        </p>
-
-                        <div class="read_more"><a class="num_blue" href="#">подробнее</a></div>
-                    </div>
-                    <div class="article">
-                        <p class="news_date">26 Март 2012</p>
-
-                        <p class="news_name">Открыт новы раздел сайта</p>
-
-                        <p>Открыты новые раздела сайта,
-                            бонусы и секретные материалы,
-                            новые статьи по нумерологии
-                            в на шей библиотеке!
-                        </p>
-
-                        <div class="read_more"><a class="num_blue" href="#">подробнее</a></div>
-                    </div>
-                </div>
-                <!--end news-->
-                <div id="project" class="fl_left">
-                    <h3>О проекте</h3>
-
-                    <div class="article">
-                        <p class="project_img fl_left"><img src="img/project_1.png"></p>
-
-                        <p class="project_title">Заголовок</p>
-
-                        <p>Мне очень понравился данный сервис, очень четко и лаконично описал всю мою сюдьбу. Очень
-                            доволен данным сервисом всем рекомендую!
-                            Мне очень понравился данный сервис, очень четко и лаконично описал всю мою сюдьбу. Очень
-                            доволен данным ...
-                        </p>
-
-                        <div class="read_more"><a class="num_blue" href="#">подробнее</a></div>
-                    </div>
-                    <div class="article">
-                        <p class="project_img fl_left"><img src="img/project_2.png"></p>
-
-                        <p class="project_title">Заголовок</p>
-
-                        <p>Мне очень понравился данный сервис, очень четко и лаконично описал всю мою сюдьбу. Очень
-                            доволен данным сервисом всем рекомендую!
-                            Мне очень понравился данный сервис, очень четко и лаконично описал всю мою сюдьбу. Очень
-                            доволен данным ...
-                        </p>
-
-                        <div class="read_more"><a class="num_blue" href="#">подробнее</a></div>
-                    </div>
-                </div>
-                <!--end project-->
-            </div>
-            <!--end articles-->
-        </div>
-
-        <div class="centralPosition">
-            <div id="counting" class="clearfix">
-                <div class="table-cell">
-                    <div class="title_table">Пример расчета 01.01.2013</div>
-                    <div class="table_row_bg">
-                        <div class="table_col">
-                            <h3>Основные события на 3013</h3>
-                            <div class="chart_block clearfix">
-                                <div class="fl_right">
-                                    <div id="heart_inside"><div id="heart_container_chart"></div></div>
-                                </div>
-                                <div id="men_chart" class="clearfix">
-                                    <div id="positive">
-                                        <div id="triangle-up"></div>
-                                        <div id="square-up"></div>
-                                    </div>
-                                    <div id="negative">
-                                        <div id="square-down"></div>
-                                        <div id="triangle-down"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="legend">
-                                <p><span class="num_blue">2013</span>Возможный кризис</p>
-                                <p><span class="num_orange">42\4</span>Опасные дни в году</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="table-cell">
-                    <div class="title_table">Особые знаки</div>
-                    <div class="table_row_bg">
-                        <div id="signs_accordion">
-                            <h3>Стрелка планирования <a class="help" title="Стрелка планирования это ...">help</a></h3>
-                            <div>[Подробно про Стрелка планирования]</div>
-                            <h3>Стрелка разочарования <a class="help" title="Стрелка разочарования это ...">help</a></h3>
-                            <div>[Подробно про Стрелка разочарования]</div>
-                            <h3>Стрелка пассивности <a class="help" title="Стрелка пассивности это ...">help</a></h3>
-                            <div>[Подробно про Стрелка пассивности]</div>
-                        </div>
-                        <div id="numbers_accordion">
-                            <h3>
-                                <a class="help" title="Числа судьбы это ...">help</a>
-                                <span class="num_square num_orange">3</span>
-                                <span class="title_h3">Числа судьбы</span>
-                                <br>
-                                оптимизм
-                            </h3>
-                            <div>[Подробно про числа судьбы]</div>
-                            <h3>
-                                <span class="num_square num_orange">7</span>
-                                <span class="title_h3">Числа судьбы</span>
-                                <br>
-                                оптимизм
-                            </h3>
-                            <div>[Подробно про числа судьбы]</div>
-                            <h3>
-                                <span class="num_square num_orange">5</span>
-                                <span class="title_h3">Числа судьбы</span>
-                                <br>
-                                оптимизм
-                            </h3>
-                            <div>[Подробно про числа судьбы]</div>
-                            <h3>
-                                <span class="num_square num_orange">8</span>
-                                <span class="title_h3">Числа судьбы</span>
-                                <br>
-                                оптимизм
-                            </h3>
-                            <div>[Подробно про числа судьбы]</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="table-cell">
-                    <div id="table_3_top">
-                        <div id="intellect">
-                            <div class="progress_pt" id="progress_intellect"></div>
-                            <p>Интеллект</p>
-                        </div>
-                        <div id="lucky">
-                            <div class="progress_pt" id="progress_lucky"></div>
-                            <p>Удача</p>
-                        </div>
-                        <div id="character">
-                            <div class="progress_pt" id="progress_character"></div>
-                            <p>Характер</p>
-                        </div>
-                        <div id="talent">
-                            <div class="progress_pt" id="progress_talent"></div>
-                            <p>Талант</p>
-                        </div>
-                        <div id="hardworking">
-                            <div class="progress_pt" id="progress_hardworking"></div>
-                            <p>Трудолюбие</p>
-                        </div>
-
-                    </div>
-                    <div class="table_row_bg">
-                        <div id="shadow_row" class="fl_left">
-                            <ul id="numbers">
-                                <li>
-                                    <span class="num_square num_orange">5</span>
-                                    <span class="title_h3">Числа судьбы</span>
-                                    <br>
-                                    оптимизм
-                                </li>
-                                <li>
-                                    <span class="num_square num_white">1</span>
-                                    <span class="title_h3">Числа судьбы</span>
-                                    <br>
-                                    оптимизм
-                                </li>
-                                <li>
-                                    <span class="num_square num_blue">3</span>
-                                    <span class="title_h3">Числа судьбы</span>
-                                    <br>
-                                    оптимизм
-                                </li>
-                                <li>
-                                    <span class="num_square num_white">2</span>
-                                    <span class="title_h3">Числа судьбы</span>
-                                    <br>
-                                    оптимизм
-                                </li>
-                                <li>
-                                    <span class="num_square num_white">1</span>
-                                    <span class="title_h3">Числа судьбы</span>
-                                    <br>
-                                    оптимизм
-                                </li>
-                                <li>
-                                    <span class="num_square num_white">2</span>
-                                    <span class="title_h3">Числа судьбы</span>
-                                    <br>
-                                    оптимизм
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="six_corners fl_left">
-                            <h3>Характер</h3>
-                            <div class="hexagon_bg fl_left">
-                                <span class="title_h3">Норм</span>
-                                <br>
-                                хорошо
-                            </div>
-                            <div class="hexagon_bg fl_left">
-                                <span class="title_h3">Норм</span>
-                                <br>
-                                хорошо
-                            </div>
-                        </div>
-                        <div class="six_corners fl_left">
-                            <h3>Энегрия</h3>
-                            <div class="hexagon_bg fl_left">
-                                <span class="title_h3">Норм</span>
-                                <br>
-                                хорошо
-                            </div>
-                            <div class="hexagon_bg fl_left">
-                                <span class="title_h3">Норм</span>
-                                <br>
-                                хорошо
-                            </div>
-                        </div>
-
-
-
-
-                    </div>
-
-                </div>
-
-
-            </div><!--end counting-->
-        </div>
-
-
-
-        <div class="centralPosition">
-            <div id="concrete_date" class="clearfix">
-                <div class="column fl_left">
-                    <div id="trip">
-                        <h4>Путешествие</h4>
-                        <p class="count_concrete"><a class="num_blue" href="#">Сделать расчет на определенную дату</a></p>
-                        <p class="unlucky_date">23.11.2013 &#8212; Неблагоприятная дата для совершения путешествия</p>
-                        <p>По китайской нумерологии данный год не является благоприятным для путешествий, так как необходимо беречься от транспортных катастроф, особенно связанных с внезапной остановкой (отказ тормозов, наезд на препятствие) и падением на землю.Годограф судьбы показал, что данная дата не лежит ни на одной из спиралей судьбы, а значит не является благоприятной</p>
-                    </div>
-                    <div id="compatibility" class="bg_column_top">
-                        <h4>Совместимость</h4>
-                        <p class="count_concrete"><a class="num_blue" href="#">Сделать расчет на определенную дату</a></p>
-                        <p class="unlucky_date">23.11.2013 &#8212; Неблагоприятная дата для совершения путешествия</p>
-                        <p>По китайской нумерологии данный год не является благоприятным для путешествий, так как необходимо беречься от транспортных катастроф, особенно связанных с внезапной остановкой (отказ тормозов, наезд на препятствие) и падением на землю.Годограф судьбы показал, что данная дата не лежит ни на одной из спиралей судьбы, а значит не является благоприятной</p>
-                    </div>
-                </div>
-                <div class="column fl_left">
-                    <div id="work">
-                        <h4>Работа</h4>
-                        <p class="count_concrete"><a class="num_blue" href="#">Сделать расчет на определенную дату</a></p>
-                        <p class="unlucky_date">23.11.2013 &#8212; Неблагоприятная дата для совершения путешествия</p>
-                        <p>По китайской нумерологии данный год не является благоприятным для путешествий, так как необходимо беречься от транспортных катастроф, особенно связанных с внезапной остановкой (отказ тормозов, наезд на препятствие) и падением на землю.Годограф судьбы показал, что данная дата не лежит ни на одной из спиралей судьбы, а значит не является благоприятной</p>
-                    </div>
-                    <div id="buy" class="bg_column_top">
-                        <h4>Покупки</h4>
-                        <p class="count_concrete"><a class="num_blue" href="#">Сделать расчет на определенную дату</a></p>
-                        <p class="unlucky_date">23.11.2013 &#8212; Неблагоприятная дата для совершения путешествия</p>
-                        <p>По китайской нумерологии данный год не является благоприятным для путешествий, так как необходимо беречься от транспортных катастроф, особенно связанных с внезапной остановкой (отказ тормозов, наезд на препятствие) и падением на землю.Годограф судьбы показал, что данная дата не лежит ни на одной из спиралей судьбы, а значит не является благоприятной</p>
-                    </div>
-                </div>
-            </div><!--end concrete_date-->
-        </div>
-
-        <div class="centralPosition">
-            <div id="famous_dates" class="clearfix">
-                <div id="web" class="fl_left">
-                    <div id="spiderweb_container_chart"></div>
-                </div>
-                <div id="boxes" class="fl_left">
-                    <div>
-                    <div class="info">
-                        <p class="box_title">Особо важные события</p>
-                        <div class="short">
-                            <p>2013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 2085</p>
-                            <p class="details"><a class="num_blue" href="javascript:void(0);">подробнее</a></p>
-                        </div>
-                        <div class="full" style="display:none;">
-                            <p>2013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 2085 2013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 2085 2013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 2085</p>
-                            <p class="details"><a class="num_blue" href="javascript:void(0);">свернуть</a></p>
-                        </div>
-                    </div>
-                    <div class="info">
-                        <p class="box_title">Шанс координально изменить свою жизнь</p>
-                        <div class="short">
-                            <p>2013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 2085</p>
-                            <p class="details"><a class="num_blue" href="javascript:void(0);">подробнее</a></p>
-                        </div>
-                        <div class="full" style="display:none;">
-                            <p>2013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 2085 2013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 2085</p>
-                            <p class="details"><a class="num_blue" href="javascript:void(0);">свернуть</a></p>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="info more_info">
-                        <p class="box_title">Время самых ярких свершений и успехов</p>
-                        <div class="short" style="display: none;">
-                            <p>2013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 20852013 2014 2017 2019</p>
-                            <p class="details"><a class="num_blue" href="javascript:void(0);">подробнее</a></p>
-                        </div>
-                        <div class="full">
-                            <p>2013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 20852013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 20852013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 20852013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 20852013 2014 2017 2019 2021 2026 2036 2040 2046 2047 2051 2058 2060 2063 2068 2073 2074 2084 20852013 2014 2017 2019 2021 2026 2036 2040 2046 2047</p>
-                            <p class="details"><a class="num_blue" href="javascript:void(0);">свернуть</a></p>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </div><!--end concrete_date-->
-        </div>
-
-
-        <div id="footer">
-            <p>Все права защищены © 2006-2013 <span class="upper">Экструм</span> - математический анализ
-                существования онлайн.</p>
-        </div>
-        <!--end footer-->
 
     </div>
+    <!--end counting-->
+</div>
+
+
+<div class="centralPosition">
+    <div id="concrete_date" class="clearfix">
+        <div class="column fl_left">
+            <div id="trip">
+                <h4>Путешествие</h4>
+
+                <p class="count_concrete"><a class="num_blue" href="#">Сделать расчет на определенную дату</a></p>
+
+                <p class="unlucky_date">23.11.2013 &#8212; Неблагоприятная дата для совершения путешествия</p>
+
+                <p>По китайской нумерологии данный год не является благоприятным для путешествий, так как необходимо
+                    беречься от транспортных катастроф, особенно связанных с внезапной остановкой (отказ тормозов, наезд
+                    на препятствие) и падением на землю.Годограф судьбы показал, что данная дата не лежит ни на одной из
+                    спиралей судьбы, а значит не является благоприятной</p>
+            </div>
+            <div id="compatibility" class="bg_column_top">
+                <h4>Совместимость</h4>
+
+                <p class="count_concrete"><a class="num_blue" href="#">Сделать расчет на определенную дату</a></p>
+
+                <p class="unlucky_date">23.11.2013 &#8212; Неблагоприятная дата для совершения путешествия</p>
+
+                <p>По китайской нумерологии данный год не является благоприятным для путешествий, так как необходимо
+                    беречься от транспортных катастроф, особенно связанных с внезапной остановкой (отказ тормозов, наезд
+                    на препятствие) и падением на землю.Годограф судьбы показал, что данная дата не лежит ни на одной из
+                    спиралей судьбы, а значит не является благоприятной</p>
+            </div>
+        </div>
+        <div class="column fl_left">
+            <div id="work">
+                <h4>Работа</h4>
+
+                <p class="count_concrete"><a class="num_blue" href="#">Сделать расчет на определенную дату</a></p>
+
+                <p class="unlucky_date">23.11.2013 &#8212; Неблагоприятная дата для совершения путешествия</p>
+
+                <p>По китайской нумерологии данный год не является благоприятным для путешествий, так как необходимо
+                    беречься от транспортных катастроф, особенно связанных с внезапной остановкой (отказ тормозов, наезд
+                    на препятствие) и падением на землю.Годограф судьбы показал, что данная дата не лежит ни на одной из
+                    спиралей судьбы, а значит не является благоприятной</p>
+            </div>
+            <div id="buy" class="bg_column_top">
+                <h4>Покупки</h4>
+
+                <p class="count_concrete"><a class="num_blue" href="#">Сделать расчет на определенную дату</a></p>
+
+                <p class="unlucky_date">23.11.2013 &#8212; Неблагоприятная дата для совершения путешествия</p>
+
+                <p>По китайской нумерологии данный год не является благоприятным для путешествий, так как необходимо
+                    беречься от транспортных катастроф, особенно связанных с внезапной остановкой (отказ тормозов, наезд
+                    на препятствие) и падением на землю.Годограф судьбы показал, что данная дата не лежит ни на одной из
+                    спиралей судьбы, а значит не является благоприятной</p>
+            </div>
+        </div>
+    </div>
+    <!--end concrete_date-->
+</div>
+
+<div id="footer">
+    <p>Все права защищены © 2006-2013 <span class="upper">Экструм</span> - математический анализ
+        существования онлайн.</p>
+</div>
+<!--end footer-->
+
+</div>
 </div>
 </div>
 </body>
