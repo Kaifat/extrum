@@ -1,4 +1,9 @@
+@font-face {
+    font-family: 'MYRIADPROREGULAR';
 
+    src: url('http://fontsforweb.com/public/fonts/4410/MYRIADPROREGULAR.eot');
+    src: local('MYRIADPROREGULAR'), url('http://fontsforweb.com/public/fonts/4410/MYRIADPROREGULAR.ttf') format('truetype');
+}
 @font-face
 {
     font-weight: normal;
@@ -15,7 +20,7 @@
 
 html, body {
     color: #ffffff;
-    font: 13px/1.1 'MyMyriadPro', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Arial, sans-serif;
+    font: 13px/1.1 'MyMyriadPro', 'MYRIADPROREGULAR', MyriadPro-Regular, 'Myriad Pro Regular', MyriadPro, 'Myriad Pro', Arial, sans-serif;
     background: url("../img/bg_common.png") #021121 repeat top center;
     min-height:100%;
 }
@@ -437,18 +442,19 @@ span.nbsp4 {
     color: #8eb83c;
 }
 
-p.read_more,
-p.count_concrete,
-p.details {
+.read_more,
+.count_concrete,
+.details {
     display: inline-block;
     margin: 10px 0;
     height: 24px;
     line-height: 20px;
+    text-align: left;
 }
 
-p.read_more a,
-p.count_concrete a,
-p.details a {
+.read_more a,
+.count_concrete a,
+.details a {
     font-size: 12px;
     color: #ffffff;
     padding: 0 8px;
@@ -465,8 +471,8 @@ p.details a {
     background-color: #195066;
 }
 
-p.count_concrete a,
-p.details a {
+.count_concrete a,
+.details a {
     background-color: #1d799b
 }
 
@@ -482,12 +488,6 @@ p.details a {
 #footer p {
     font-size: 12px;
 }
-
-
-
-
-
-
 
 /*MAIN-ROOM*/
 
@@ -735,7 +735,7 @@ div.table-cell {
     text-align: center;
     display: block;
     float: left;
-    margin: 0 15px 0 0;
+    margin: 0 7px 0 0;
 }
 
 .num_orange {
@@ -889,7 +889,7 @@ ul#numbers {
     padding: 10px 0 0 0;
 }
 ul#numbers li {
-    padding: 7px;
+    padding: 7px 2px 7px 7px;
 }
 
 #shadow_row {
